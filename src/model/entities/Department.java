@@ -7,11 +7,11 @@ public class Department implements Serializable{
     private Integer id;
     private String name;
 
-    public void Department(){
+    public Department(){
 
     }
 
-    public void Department(Integer id, String name){
+    public Department(Integer id, String name){
         this.id = id;
         this.name = name;
     }
