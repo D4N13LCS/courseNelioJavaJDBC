@@ -1,9 +1,7 @@
-
-package dao;
+package model.dao;
 
 import java.util.List;
-
-import entities.Seller;
+import model.entities.Seller;
 
 public interface SellerDao {
 
