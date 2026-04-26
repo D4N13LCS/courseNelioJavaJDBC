@@ -114,7 +114,9 @@ CREATE TABLE seller (
 
 ### 2. Configurar conexão
 
-No arquivo `db.properties`, configure:
+1. Renomeie o arquivo `db.example.properties` para `db.properties`
+
+2. No arquivo `db.properties`, configure suas credenciais:
 
 ```
 user=seu_usuario
@@ -123,7 +125,7 @@ dburl=jdbc:mysql://localhost:3306/seu_banco
 useSSL=false
 ```
 
----
+> ⚠️ O arquivo `db.properties` não é versionado por questões de segurança.
 
 ### 3. Executar o projeto
 
